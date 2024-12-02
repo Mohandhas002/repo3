@@ -1,0 +1,46 @@
+.col-md-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 7.5px;
+    padding-left: 7.5px
+}
+
+#arshad_div {
+    margin-left: 9%
+}
+
+@media (max-width: 992px) {
+    .col-md-5ths {
+        width:50%;
+        float: left;
+        display: flex;
+        padding-right: 15px;
+        padding-left: 15px
+    }
+
+    #arshad_div {
+        margin-left: 0
+    }
+}
+
+@media (max-width: 768px) {
+    #arshad_div {
+        margin-left:0
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width:16.66%;
+        float: left;
+        padding-right: 15px;
+        padding-left: 15px
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-md-5ths {
+        width:16.66%;
+        float: left
+    }
+}
